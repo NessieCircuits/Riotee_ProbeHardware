@@ -2,7 +2,9 @@
 
 The Riotee probe lets you program a Riotee module that is soldered onto your PCB or plugged into a breadboard. It has a standard 10-pin 0.1" connector compatible with the popular Tag-Connect cables that allow in-circuit debugging with a very small footprint.
 
-You can view the latest [schematics](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/schematics.pdf) and [layout](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/pcb.pdf) as PDF.
+Latest design files:
+ - [Schematics](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/schematics.pdf)
+ - [Layout](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/pcb.pdf)
 
 Specification:
  - Custom debug probe for in-circuit programming/debugging of Riotee modules
@@ -16,4 +18,4 @@ Specification:
 
 ## Firmware
 
-The probe has a dedicated controller (Raspberry Pi RP2040) that manages the upload of new firmware to the Riotee device as well as the communication with a PC. To upgrade the firmware running on the RP2040, connect a wire from one of the ground pins to the test pad labelled 'USB_BOOT' on the bottom of the board, while plugging in the USB cable. A removable storage drive should appear on your PC. Drop a UF2 compatible binary into the drive.
+The probe has a dedicated controller (Raspberry Pi RP2040) that manages the upload of new firmware to the Riotee device as well as the communication with a PC. The firmware running on the RP2040 is hosted in [this repository](https://github.com/NessieCircuits/Riotee_ProbeFirmware). To upgrade the firmware on the Riotee probe, connect a wire from one of the ground pins to the test pad labelled 'USB_BOOT' on the bottom of the board, while plugging in the USB cable. A removable storage drive should appear on your PC. Drop a UF2 compatible binary into the drive.
