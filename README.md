@@ -2,6 +2,8 @@
 
 The Riotee probe lets you program a Riotee module that is soldered onto your PCB or plugged into a breadboard. It has a standard 10-pin 0.1" connector compatible with the popular Tag-Connect cables that allow in-circuit debugging with a very small footprint.
 
+You can view the latest [schematics](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/schematics.pdf) and [layout](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/pcb.pdf) as PDF.
+
 Specification:
  - Custom debug probe for in-circuit programming/debugging of Riotee modules
  - USB-C connector for connection to a PC
