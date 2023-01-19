@@ -13,8 +13,7 @@ Specification:
  - CMSIS-DAP compatible: Supports programming of the Riotee module via pyOCD/OpenOCD
  - Makes UART output from Riotee module available via USB
 
-![Rendering of Riotee probe](rendering.png "Riotee probe")
-
+![Rendering of Riotee probe](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/3drendering.png "Riotee probe")
 
 ## Firmware
 
