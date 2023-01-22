@@ -1,4 +1,4 @@
-name: Kibot
+name: Kibot build and deploy artifacts
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "main"
 
 jobs:
-  kibot:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -24,7 +24,7 @@ jobs:
       run: sudo chown -R 1001:1001 kibot_outputs
 
     - name: Upload artifacts to github
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: artifacts
         path: kibot_outputs

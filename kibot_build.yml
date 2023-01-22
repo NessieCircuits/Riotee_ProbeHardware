@@ -1,6 +1,11 @@
 kibot:
   version: 1
 
+preflight:
+  check_zone_fills: true
+  run_erc: true
+  run_drc: true
+
 outputs:
   # PDF Schematic Print (Portable Document Format):
   # This is the main format to document your schematic.
