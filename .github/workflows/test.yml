@@ -1,4 +1,4 @@
-name: Kibot run ERC and DRC
+name: Kibot ERC/DRC
 
 on:
   push:
