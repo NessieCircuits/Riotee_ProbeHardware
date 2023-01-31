@@ -7,6 +7,7 @@ The Riotee probe lets you program a Riotee module that is soldered onto your PCB
 Latest design files:
  - [Schematics](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/schematics.pdf)
  - [Layout](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/pcb.pdf)
+ - [Assembly plan](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/assembly.pdf)
  - [3D rendering](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/3drendering.png)
 
 Specification:
