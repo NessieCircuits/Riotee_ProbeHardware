@@ -1345,7 +1345,7 @@
     (property "Reference" "R27" (id 0) (at 227.838 135.0553 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "12R" (id 1) (at 227.838 137.5922 0)
+    (property "Value" "5.1k" (id 1) (at 227.838 137.5922 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 227.838 135.89 90)

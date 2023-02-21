@@ -618,7 +618,7 @@
       (reference "R26") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/bacd2203-e1eb-4755-a3cf-60112bdb806f/d413bf40-ec9b-4a53-973a-a098e75206bb"
-      (reference "R27") (unit 1) (value "12R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R27") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/18809e2e-ebce-4ed3-a8da-870def2a1f06/631d99b6-0158-4f4a-a386-213777c3ecc1"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
