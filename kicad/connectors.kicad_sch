@@ -1288,7 +1288,7 @@
   (symbol (lib_id "riotee:+2V1") (at 226.06 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ac9708bf-e478-4a30-9533-e91ab7f4680c)
-    (property "Reference" "#PWR0101" (id 0) (at 226.06 121.92 0)
+    (property "Reference" "#PWR055" (id 0) (at 226.06 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V1" (id 1) (at 226.06 114.5342 0))
