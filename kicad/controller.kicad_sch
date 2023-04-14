@@ -2069,7 +2069,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 241.3 102.87 0) (unit 1)
-    (in_bom no) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 656bde87-7ab0-495a-b04c-e6ec74b7b408)
     (property "Reference" "R5" (id 0) (at 243.078 102.0353 0)
       (effects (font (size 1.27 1.27)) (justify left))
