@@ -8,3 +8,6 @@ fp-info-cache
 \#auto_saved_files#
 _autosave-*.kicad_pcb
 gerber/
+
+riotee-probe-panel.kicad_pcb
+riotee-probe-panel.kicad_pro
