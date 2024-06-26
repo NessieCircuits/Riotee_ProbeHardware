@@ -1,265 +1,605 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid e235c9a3-080d-42b7-93df-883e69095a9f)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (bus (pts (xy 124.46 81.28) (xy 130.81 81.28))
-    (stroke (width 0) (type default))
-    (uuid 08aa09fb-b90d-455c-af7f-10a1b2b62f1b)
-  )
-
-  (wire (pts (xy 124.46 123.19) (xy 135.89 123.19))
-    (stroke (width 0) (type default))
-    (uuid 15f58da7-5a5b-4126-83c1-a482e8480979)
-  )
-  (bus (pts (xy 130.81 81.28) (xy 130.81 97.79))
-    (stroke (width 0) (type default))
-    (uuid 2dad495d-3243-4dac-a3ca-05d1bb9a2de0)
-  )
-
-  (wire (pts (xy 190.5 118.11) (xy 201.93 118.11))
-    (stroke (width 0) (type default))
-    (uuid 31f6c1b7-eab1-4895-a313-ac4e40b4c9c4)
-  )
-  (bus (pts (xy 124.46 106.68) (xy 201.93 106.68))
-    (stroke (width 0) (type default))
-    (uuid 3ac9d8b7-11dd-491c-a69e-82fd58baadb4)
-  )
-
-  (wire (pts (xy 124.46 102.87) (xy 201.93 102.87))
-    (stroke (width 0) (type default))
-    (uuid 4b02552b-ef4e-49cd-86ed-3ef2630b12c9)
-  )
-  (wire (pts (xy 190.5 120.65) (xy 201.93 120.65))
-    (stroke (width 0) (type default))
-    (uuid 651535e5-bd94-4ec9-9352-cfd6b0e1cb49)
-  )
-  (bus (pts (xy 124.46 135.89) (xy 135.89 135.89))
-    (stroke (width 0) (type default))
-    (uuid 6dd10c8f-92f0-4f1a-8c47-04c5fe0f381f)
-  )
-
-  (wire (pts (xy 124.46 120.65) (xy 135.89 120.65))
-    (stroke (width 0) (type default))
-    (uuid 6e27da7c-9d82-430c-9f7c-31db9adc9b28)
-  )
-  (bus (pts (xy 190.5 128.27) (xy 201.93 128.27))
-    (stroke (width 0) (type default))
-    (uuid 721bd72c-8384-4cb1-a4d0-a138bf211509)
-  )
-
-  (wire (pts (xy 124.46 130.81) (xy 135.89 130.81))
-    (stroke (width 0) (type default))
-    (uuid 80f88582-ad1b-4877-97f7-198b81776bcb)
-  )
-  (bus (pts (xy 130.81 97.79) (xy 124.46 97.79))
-    (stroke (width 0) (type default))
-    (uuid 90be162d-a650-4195-b689-33a72df8ac8b)
-  )
-  (bus (pts (xy 124.46 115.57) (xy 135.89 115.57))
-    (stroke (width 0) (type default))
-    (uuid a72c3230-0ffe-49cc-ae8f-7412c7207c8f)
-  )
-  (bus (pts (xy 124.46 133.35) (xy 135.89 133.35))
-    (stroke (width 0) (type default))
-    (uuid b9dc43e0-e994-4e9a-9b2a-b6dcd218bf9a)
-  )
-  (bus (pts (xy 190.5 130.81) (xy 201.93 130.81))
-    (stroke (width 0) (type default))
-    (uuid bbc35570-77c5-4e6b-a7db-cb9dff702483)
-  )
-
-  (wire (pts (xy 124.46 125.73) (xy 135.89 125.73))
-    (stroke (width 0) (type default))
-    (uuid f83c963e-ddce-4d20-8b76-cefaf8d3fe68)
-  )
-
-  (sheet (at 92.71 93.98) (size 31.75 45.72) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 18809e2e-ebce-4ed3-a8da-870def2a1f06)
-    (property "Sheetname" "Controller" (at 92.71 93.2684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "controller.kicad_sch" (at 92.71 140.2846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB{D+ D-}" input (at 124.46 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fbc04c79-8054-46b6-bc4a-64c515d1b969)
-    )
-    (pin "UartRx" input (at 124.46 125.73 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 72af2941-d59d-4cb8-a235-51588e96b0a2)
-    )
-    (pin "TargetPowerEnable" input (at 124.46 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b4731082-73be-409c-9f08-73472340e915)
-    )
-    (pin "UartTx" input (at 124.46 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 396418d2-97cd-4e50-9e28-2c64dd3baf9d)
-    )
-    (pin "Trans_UARTRX_Dir" input (at 124.46 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid f4bccaaa-9a36-4702-ac8b-75486be69f27)
-    )
-    (pin "SwdOut{CLK IO}" input (at 124.46 133.35 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 0ce1eab6-e69c-4763-8b15-ddbce9e73964)
-    )
-    (pin "SbwOut{CLK IO}" input (at 124.46 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 27a6f63f-486f-4491-9d26-ed77864acfd6)
-    )
-    (pin "TransEnable[0..2]" input (at 124.46 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 4c7057e3-7dc5-4a62-801e-4c2e00af9597)
-    )
-    (pin "ProgDir" input (at 124.46 130.81 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e228e876-a758-4b16-b1bc-f9bfcfde5aa3)
-    )
-    (pin "PiGpio[0..3]" input (at 124.46 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 0abab752-2296-4227-a366-c27facf8a61f)
-    )
-    (instances
-      (project "riotee-probe"
-        (path "/e235c9a3-080d-42b7-93df-883e69095a9f" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 135.89 111.76) (size 54.61 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b3221ac8-3cdb-488c-af34-73439eb346a0)
-    (property "Sheetname" "LevelShifter" (at 135.89 111.0484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "level_shifter.kicad_sch" (at 135.89 140.2846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "Target_UART_TX" input (at 190.5 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 157c841c-3ca7-42a5-aaa5-00ee11bad37b)
-    )
-    (pin "Host_UART_RX" input (at 135.89 125.73 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 54f8ef26-3d59-4bf3-bb62-e9035a9cfa22)
-    )
-    (pin "Target_SBW{CLK IO}" input (at 190.5 130.81 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 84246aaf-0981-4a9f-b8d4-b904101e7efb)
-    )
-    (pin "Target_SWD{CLK IO}" input (at 190.5 128.27 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 8c83f0da-0ac2-4445-8839-3117d0eaadc1)
-    )
-    (pin "Host_SBW{CLK IO}" input (at 135.89 135.89 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1558130c-38ec-4bf8-9129-41aec73b9057)
-    )
-    (pin "Host_SWD{CLK IO}" input (at 135.89 133.35 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ac6a32a5-9cc5-410c-b511-d55ea0bea5d7)
-    )
-    (pin "ProgDir" input (at 135.89 130.81 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1fbe2314-f00a-4f6f-8a9d-97a8ac06e5d7)
-    )
-    (pin "Target_UART_RX" input (at 190.5 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 9e3e4554-2fb4-4bf6-8603-f57a9228d3ab)
-    )
-    (pin "Trans_UARTRX_Dir" input (at 135.89 120.65 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid eb4b9c2a-6ba1-45c5-8390-2d8fa8486324)
-    )
-    (pin "Host_UART_TX" input (at 135.89 123.19 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e173e5fb-a7e5-4ac0-b2d8-4c0689b5cd12)
-    )
-    (pin "TransEnable[0..2]" input (at 135.89 115.57 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4a1a9407-a6db-4a46-9934-b2e7f5dd2f5d)
-    )
-    (instances
-      (project "riotee-probe"
-        (path "/e235c9a3-080d-42b7-93df-883e69095a9f" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 201.93 99.06) (size 25.4 40.64) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid bacd2203-e1eb-4755-a3cf-60112bdb806f)
-    (property "Sheetname" "Connectors" (at 201.93 98.3484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "connectors.kicad_sch" (at 201.93 140.2846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "Target_SBW{CLK IO}" input (at 201.93 130.81 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 63f3b2bf-2e82-49d2-b073-a30ac29a7c53)
-    )
-    (pin "Target_SWD{CLK IO}" input (at 201.93 128.27 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e1a47c3e-7a55-4e81-b4c6-74d5ae77ac69)
-    )
-    (pin "Target_UART_TX" input (at 201.93 118.11 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ae9d4b64-e512-41d7-997c-b3ee4df671ee)
-    )
-    (pin "Target_UART_RX" input (at 201.93 120.65 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid bbb4b47f-48db-49d1-8038-a818f9d8e579)
-    )
-    (pin "TargetPowerEnable" input (at 201.93 102.87 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 38617716-8ff9-4a40-affc-ed11907c1de1)
-    )
-    (pin "PiGpio[0..3]" input (at 201.93 106.68 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8a4442df-2e10-44bb-870c-51e004c6d16d)
-    )
-    (instances
-      (project "riotee-probe"
-        (path "/e235c9a3-080d-42b7-93df-883e69095a9f" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 92.71 73.66) (size 31.75 11.43) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f12ec016-e798-4082-9926-8503372195ab)
-    (property "Sheetname" "USB and power" (at 92.71 72.9484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "usb_power.kicad_sch" (at 92.71 85.6746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB{D+ D-}" input (at 124.46 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 401ea1a6-0c42-4eb8-9f94-fff9f1743512)
-    )
-    (instances
-      (project "riotee-probe"
-        (path "/e235c9a3-080d-42b7-93df-883e69095a9f" (page "4"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e235c9a3-080d-42b7-93df-883e69095a9f")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 124.46 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08aa09fb-b90d-455c-af7f-10a1b2b62f1b")
+	)
+	(wire
+		(pts
+			(xy 124.46 123.19) (xy 135.89 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f58da7-5a5b-4126-83c1-a482e8480979")
+	)
+	(bus
+		(pts
+			(xy 130.81 81.28) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dad495d-3243-4dac-a3ca-05d1bb9a2de0")
+	)
+	(wire
+		(pts
+			(xy 190.5 118.11) (xy 201.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f6c1b7-eab1-4895-a313-ac4e40b4c9c4")
+	)
+	(bus
+		(pts
+			(xy 124.46 106.68) (xy 201.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac9d8b7-11dd-491c-a69e-82fd58baadb4")
+	)
+	(wire
+		(pts
+			(xy 124.46 102.87) (xy 201.93 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b02552b-ef4e-49cd-86ed-3ef2630b12c9")
+	)
+	(wire
+		(pts
+			(xy 190.5 120.65) (xy 201.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651535e5-bd94-4ec9-9352-cfd6b0e1cb49")
+	)
+	(bus
+		(pts
+			(xy 124.46 135.89) (xy 135.89 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd10c8f-92f0-4f1a-8c47-04c5fe0f381f")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e27da7c-9d82-430c-9f7c-31db9adc9b28")
+	)
+	(bus
+		(pts
+			(xy 190.5 128.27) (xy 201.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721bd72c-8384-4cb1-a4d0-a138bf211509")
+	)
+	(wire
+		(pts
+			(xy 124.46 130.81) (xy 135.89 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f88582-ad1b-4877-97f7-198b81776bcb")
+	)
+	(bus
+		(pts
+			(xy 130.81 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90be162d-a650-4195-b689-33a72df8ac8b")
+	)
+	(bus
+		(pts
+			(xy 124.46 115.57) (xy 135.89 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72c3230-0ffe-49cc-ae8f-7412c7207c8f")
+	)
+	(bus
+		(pts
+			(xy 124.46 133.35) (xy 135.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9dc43e0-e994-4e9a-9b2a-b6dcd218bf9a")
+	)
+	(bus
+		(pts
+			(xy 190.5 130.81) (xy 201.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc35570-77c5-4e6b-a7db-cb9dff702483")
+	)
+	(wire
+		(pts
+			(xy 124.46 125.73) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83c963e-ddce-4d20-8b76-cefaf8d3fe68")
+	)
+	(sheet
+		(at 92.71 93.98)
+		(size 31.75 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18809e2e-ebce-4ed3-a8da-870def2a1f06")
+		(property "Sheetname" "Controller"
+			(at 92.71 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 92.71 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB{D+ D-}" input
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fbc04c79-8054-46b6-bc4a-64c515d1b969")
+		)
+		(pin "UartRx" input
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72af2941-d59d-4cb8-a235-51588e96b0a2")
+		)
+		(pin "TargetPowerEnable" input
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4731082-73be-409c-9f08-73472340e915")
+		)
+		(pin "UartTx" input
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "396418d2-97cd-4e50-9e28-2c64dd3baf9d")
+		)
+		(pin "Trans_UARTRX_Dir" input
+			(at 124.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4bccaaa-9a36-4702-ac8b-75486be69f27")
+		)
+		(pin "SwdOut{CLK IO}" input
+			(at 124.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ce1eab6-e69c-4763-8b15-ddbce9e73964")
+		)
+		(pin "SbwOut{CLK IO}" input
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "27a6f63f-486f-4491-9d26-ed77864acfd6")
+		)
+		(pin "TransEnable[0..2]" input
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c7057e3-7dc5-4a62-801e-4c2e00af9597")
+		)
+		(pin "ProgDir" input
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e228e876-a758-4b16-b1bc-f9bfcfde5aa3")
+		)
+		(pin "PiGpio[0..3]" input
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0abab752-2296-4227-a366-c27facf8a61f")
+		)
+		(instances
+			(project "riotee-probe"
+				(path "/e235c9a3-080d-42b7-93df-883e69095a9f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 111.76)
+		(size 54.61 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3221ac8-3cdb-488c-af34-73439eb346a0")
+		(property "Sheetname" "LevelShifter"
+			(at 135.89 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level_shifter.kicad_sch"
+			(at 135.89 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Target_UART_TX" input
+			(at 190.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "157c841c-3ca7-42a5-aaa5-00ee11bad37b")
+		)
+		(pin "Host_UART_RX" input
+			(at 135.89 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54f8ef26-3d59-4bf3-bb62-e9035a9cfa22")
+		)
+		(pin "Target_SBW{CLK IO}" input
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84246aaf-0981-4a9f-b8d4-b904101e7efb")
+		)
+		(pin "Target_SWD{CLK IO}" input
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8c83f0da-0ac2-4445-8839-3117d0eaadc1")
+		)
+		(pin "Host_SBW{CLK IO}" input
+			(at 135.89 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1558130c-38ec-4bf8-9129-41aec73b9057")
+		)
+		(pin "Host_SWD{CLK IO}" input
+			(at 135.89 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac6a32a5-9cc5-410c-b511-d55ea0bea5d7")
+		)
+		(pin "ProgDir" input
+			(at 135.89 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1fbe2314-f00a-4f6f-8a9d-97a8ac06e5d7")
+		)
+		(pin "Target_UART_RX" input
+			(at 190.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e3e4554-2fb4-4bf6-8603-f57a9228d3ab")
+		)
+		(pin "Trans_UARTRX_Dir" input
+			(at 135.89 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb4b9c2a-6ba1-45c5-8390-2d8fa8486324")
+		)
+		(pin "Host_UART_TX" input
+			(at 135.89 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e173e5fb-a7e5-4ac0-b2d8-4c0689b5cd12")
+		)
+		(pin "TransEnable[0..2]" input
+			(at 135.89 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a1a9407-a6db-4a46-9934-b2e7f5dd2f5d")
+		)
+		(instances
+			(project "riotee-probe"
+				(path "/e235c9a3-080d-42b7-93df-883e69095a9f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 99.06)
+		(size 25.4 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bacd2203-e1eb-4755-a3cf-60112bdb806f")
+		(property "Sheetname" "Connectors"
+			(at 201.93 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 201.93 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Target_SBW{CLK IO}" input
+			(at 201.93 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63f3b2bf-2e82-49d2-b073-a30ac29a7c53")
+		)
+		(pin "Target_SWD{CLK IO}" input
+			(at 201.93 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1a47c3e-7a55-4e81-b4c6-74d5ae77ac69")
+		)
+		(pin "Target_UART_TX" input
+			(at 201.93 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae9d4b64-e512-41d7-997c-b3ee4df671ee")
+		)
+		(pin "Target_UART_RX" input
+			(at 201.93 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbb4b47f-48db-49d1-8038-a818f9d8e579")
+		)
+		(pin "TargetPowerEnable" input
+			(at 201.93 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38617716-8ff9-4a40-affc-ed11907c1de1")
+		)
+		(pin "PiGpio[0..3]" input
+			(at 201.93 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a4442df-2e10-44bb-870c-51e004c6d16d")
+		)
+		(instances
+			(project "riotee-probe"
+				(path "/e235c9a3-080d-42b7-93df-883e69095a9f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 73.66)
+		(size 31.75 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f12ec016-e798-4082-9926-8503372195ab")
+		(property "Sheetname" "USB and power"
+			(at 92.71 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_power.kicad_sch"
+			(at 92.71 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB{D+ D-}" input
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "401ea1a6-0c42-4eb8-9f94-fff9f1743512")
+		)
+		(instances
+			(project "riotee-probe"
+				(path "/e235c9a3-080d-42b7-93df-883e69095a9f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
