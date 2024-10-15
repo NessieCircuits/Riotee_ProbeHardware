@@ -9,6 +9,8 @@ Latest design files:
  - [Layout](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/pcb.pdf)
  - [Assembly plan](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/assembly.pdf)
  - [3D rendering](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/3drendering.png)
+ - [Gerber](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/gerber.zip)
+ - [BOM](https://www.riotee.nessie-circuits.de/artifacts/probe_hardware/latest/bom.csv)
 
 Specification:
  - Custom debug probe for in-circuit programming/debugging of Riotee modules
